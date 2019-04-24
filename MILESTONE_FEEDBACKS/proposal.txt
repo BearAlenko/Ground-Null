@@ -1,0 +1,21 @@
+TEAM 2 COMMENTS ; GRADE: 80
+
+Grader: Chenxi
+
+RENDERING -5
+Details about how to do the rendering are mostly missing. Most importantly, how are you going to render “different weather (heavy snow, thunderstorms for instants)”? Shader? Sprite? Also, you mentioned dynamic lighting for the 2.5D stage yet the preliminary 2D stage lacks details.
+
+LOGIC            -2.5
+The creatures as obstructions part is clear. Yet the part about different weathers as obstructions is unclear. Are they going to have some constant effects? For instance, the player keeps losing HP in the heavy snow or the player gets slower. Please clarify.
+
+CONCEPTS -2.5
+As mentioned in RENDERING and LOGIC, the details about the weather (heavy snow, thunderstorms for instants) are not shown. Also, none of the weathers mentioned in the plan (lightning, volcano) is shown. (Fires and smokes are shown but they are not weather.) 
+
+Comments: In summary, please clarify your design of the weather mechanics in this game. -10 are divided into three parts. The overall reason is the lack of details of one important game mechanics.
+
+PHYSICS       -5
+I am not sure about the meaning of “Physics for Simulating Parabola”. The parabola is defined by a simple equation. You don’t need to simulate it. Also, how about the player/creature motions? Are you going to implement physics for them?
+
+PLAN -5
+If you want to use unit tests they should be at the top of your plan not middle. Also, the alternative plans are missing.
+

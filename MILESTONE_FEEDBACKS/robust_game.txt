@@ -1,0 +1,31 @@
+# Team 2
+Grades: 94/100
+
+The major progress is a new level, which contains several new obstacles (mace, purple fire) and a boss. Overall, this new level needs more polishing. 
+- Some of the new assets still need refinement (the background image is partially finished, purple fire and dragon fire sprites are cut off around the boundary).
+- The current boss AI is partially finished (in its second phase, the dragon flies but doesn’t attack in this version).
+- There are some code duplications. The current implementation requires levels to be hard-coded in the source. A more efficient implementation should read levels from configuration files and dynamically create them in the game.
+- A minor comment about the game control: I found using ‘c’ to jump slightly cumbersome given ‘f’ key is also used.
+- A minor comment about save file: I suggest to change the current extension (.svg) to something else since .svg happens to be the extension of vector graphics images (https://en.wikipedia.org/wiki/Scalable_Vector_Graphics).
+
+In terms of robustness, the game is quite robust except for two minor bugs.
+
+## Milestone requirements (69)
+
++10/10 Gameplay (6 min): The game has enough contents.
++15/15 Performance & Robust Playing: The game runs without lag or crash and terminates gracefully.
++5/5 Correct Time Step.
++20/20 Memory: No memory leak.
++10/10 Reloadable: In-game reloading; Loading after quitting.
++9/15 Bugs & Glitches:
+- -2 The game doesn’t have a correct boundary. At the right-most position of level 1, the player can leave the screen by keeping pressing ‘right’. The bug is minor since after releasing the key, the player is ‘pushed’ back to the screen.
+- -4 The new obstacle in level 2 (the purple fire) has inaccurate collision detection. It is possible to overlap the player with the fire for a fair amount without causing damages.
+
+
+## Milestone creative (25)
+
++10 Boss: A dragon monster with two phases (the second one is partially finished)
++5 A new level.
++5 Mace: A new obstacle.
++5 Stone: A new obstacle.
+

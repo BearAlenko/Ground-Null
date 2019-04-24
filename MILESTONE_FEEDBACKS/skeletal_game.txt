@@ -1,0 +1,12 @@
+Team 2
+Grade: 95
+Creative:
++25 Sprite sheet animation.
+
+Issues:
+-5 Performance: the game doesn’t run smoothly. It can freeze every now and then.
+
+Feedback:
+It seems that there is a significant work imbalance. Apart from fixing bugs, we expect each student at least finish some small features or a medium-size feature at the end of the semester.
+
+In terms of the game, it would be better to have acceleration-based motions. The current motion is generated purely using constant velocity, which looks artificial. 

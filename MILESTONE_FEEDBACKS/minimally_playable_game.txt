@@ -1,0 +1,18 @@
+TEAM 2 -- GroundNull
+
+
+================================================================
+OVERALL GRADING (82.5)
+
+* Core part:
+  - Noticeable bug: when player dies, you can still control him (-5)
+  - Game is almost playable for two minutes. Based on other students feedback it could be more interesting than just killing waves of incoming enemies. (-2.5)
+  - Enemy behaviour based on decision trees
+  - Help window was included
+* Creative Part (15/25):
+  - Adding additional enemy types, and levels for the hero (+5)
+  - Refactoring the camera movement mechanism; Refactoring the enemies so that there is a base class and each enemy type is inherited from it. (+5) 
+  - Music (+5)
+
+- Already got points from previous milestone: sprites and animation
+- Don’t forget to add physics for the next milestone

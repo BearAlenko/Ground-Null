@@ -1,0 +1,15 @@
+Grade: 85/100
+
+The game has made quite some progress from the previous milestone and most of the time was spent in getting features in the game rather than polishing or refactoring existing code. There wasn’t duplicate work between members, but not all them are putting in equal amount of work. After improving the robustness of the game code for the next milestone, my suggestion would be to put effort into polishing the game mechanics rather than implementing more. Make sure that they are all coherent between each other and that the player is required to have a dynamic playing style as the game progresses (i.e. repeating the same action shouldn’t get you to the end of the level). Flexibility in the enemy behavior could very much help.
+
+## Milestone requirements (60):
++10/15 Geometry: Reduced complexity of the polygonal asset (cross)
++10/20 Collisions: Collision detection is done against entities of the same type which accounts in part for 'efficient', but it still uses bounding boxes/circles
++15/15 Physics: Momentum-based movement
++15/15 Non-linear motion: Fireball bounces along a trajectory with decreasing bounce
++10/10 Stable code
+
+## Milestone creative (25):
++ 10 Hp bar with color gradient
++ 15 Orb jumping mechanic with selectable direction
+
